@@ -1,0 +1,11 @@
+{
+  "type": "briquettes:wood_chipper",
+  "ingredient": {
+    "tag": "forge:charcoal"
+  },
+  "result": {
+    "item": "briquettes:charcoal_powder"
+  },
+  "experience": 0.0,
+  "recipeTime": 1200
+}

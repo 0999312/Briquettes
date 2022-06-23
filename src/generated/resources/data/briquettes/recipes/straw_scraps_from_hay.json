@@ -1,0 +1,12 @@
+{
+  "type": "briquettes:wood_chipper",
+  "ingredient": {
+    "item": "minecraft:hay_block"
+  },
+  "result": {
+    "item": "briquettes:straw_scraps",
+    "count": 3
+  },
+  "experience": 0.0,
+  "recipeTime": 1200
+}

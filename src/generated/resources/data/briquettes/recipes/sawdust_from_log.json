@@ -1,0 +1,12 @@
+{
+  "type": "briquettes:wood_chipper",
+  "ingredient": {
+    "tag": "minecraft:logs"
+  },
+  "result": {
+    "item": "briquettes:sawdust",
+    "count": 4
+  },
+  "experience": 0.0,
+  "recipeTime": 1200
+}

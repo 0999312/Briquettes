@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "briquettes:straw_scraps",
+        "count": 3
+      }
+    }
+  ],
+  "result": {
+    "item": "briquettes:straw_scraps",
+    "count": 6
+  },
+  "input": {
+    "item": "minecraft:hay_block"
+  },
+  "energy": 4800
+}

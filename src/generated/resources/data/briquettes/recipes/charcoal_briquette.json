@@ -1,0 +1,11 @@
+{
+  "type": "briquettes:compressor",
+  "ingredient": {
+    "tag": "forge:dusts/charcoal"
+  },
+  "result": {
+    "item": "briquettes:charcoal_briquette"
+  },
+  "experience": 0.0,
+  "recipeTime": 1
+}

@@ -1,0 +1,11 @@
+{
+  "type": "briquettes:wood_chipper",
+  "ingredient": {
+    "tag": "forge:bamboo"
+  },
+  "result": {
+    "item": "briquettes:sawdust"
+  },
+  "experience": 0.0,
+  "recipeTime": 1200
+}

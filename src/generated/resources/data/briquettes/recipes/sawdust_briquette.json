@@ -1,0 +1,11 @@
+{
+  "type": "briquettes:compressor",
+  "ingredient": {
+    "tag": "forge:dusts/wood"
+  },
+  "result": {
+    "item": "briquettes:sawdust_briquette"
+  },
+  "experience": 0.0,
+  "recipeTime": 1
+}

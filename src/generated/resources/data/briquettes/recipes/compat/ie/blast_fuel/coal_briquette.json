@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:blast_furnace_fuel",
+  "input": {
+    "item": "briquettes:coal_briquette"
+  },
+  "conditions": [
+    {
+      "modid": "immersiveengineering",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "time": 360
+}

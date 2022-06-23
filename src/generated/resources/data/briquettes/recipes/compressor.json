@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "ISP",
+    "SSS"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:hopper"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "S": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "item": "briquettes:compressor"
+  }
+}

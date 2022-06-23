@@ -1,0 +1,14 @@
+{
+  "block.briquettes.wood_chipper": "红石碎末机",
+  "block.briquettes.compressor": "红石制棒机",
+  "item.briquettes.sawdust": "锯末",
+  "item.briquettes.straw_scraps": "秸秆屑",
+  "item.briquettes.charcoal_powder": "木炭粉",
+  "item.briquettes.coal_powder": "煤粉",
+  "item.briquettes.sawdust_briquette": "锯末燃料棒",
+  "item.briquettes.charcoal_briquette": "机制木炭棒",
+  "item.briquettes.coal_briquette": "机制煤炭棒",
+  "itemGroup.briquettes": "火炭",
+  "briquettes.jei.wood_chipper": "粉碎",
+  "briquettes.jei.compressor": "制棒"
+}

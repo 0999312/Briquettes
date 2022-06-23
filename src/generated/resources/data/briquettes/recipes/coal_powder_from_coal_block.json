@@ -1,0 +1,12 @@
+{
+  "type": "briquettes:wood_chipper",
+  "ingredient": {
+    "item": "minecraft:coal_block"
+  },
+  "result": {
+    "item": "briquettes:coal_powder",
+    "count": 9
+  },
+  "experience": 0.0,
+  "recipeTime": 1200
+}

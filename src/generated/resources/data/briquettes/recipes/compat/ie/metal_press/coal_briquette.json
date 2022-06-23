@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": "immersiveengineering:mold_rod",
+  "result": {
+    "item": "briquettes:coal_briquette",
+    "count": 3
+  },
+  "input": {
+    "count": 2,
+    "base_ingredient": {
+      "tag": "forge:dusts/coal"
+    }
+  },
+  "energy": 2400
+}

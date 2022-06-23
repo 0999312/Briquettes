@@ -1,0 +1,17 @@
+{
+  "type": "immersiveengineering:coke_oven",
+  "result": {
+    "item": "briquettes:charcoal_briquette"
+  },
+  "conditions": [
+    {
+      "modid": "immersiveengineering",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "input": {
+    "item": "briquettes:sawdust_briquette"
+  },
+  "creosote": 250,
+  "time": 800
+}

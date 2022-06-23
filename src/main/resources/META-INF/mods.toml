@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+
+[[mods]]
+modId="briquettes"
+version="${file.jarVersion}"
+displayName="Briquettes"
+logoFile="logo_mid.png"
+credits="Briquettes(in real life)"
+authors="MCMOD Modding Group"
+description='''
+Better than charcoal.
+'''
+[[dependencies.briquettes]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.briquettes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.briquettes]]
+    modId="mmlib"
+    mandatory=true
+    versionRange="[1.0.3-1.18.1,)"
+    ordering="AFTER"
+    side="BOTH"

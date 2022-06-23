@@ -1,0 +1,19 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "briquettes:straw_scraps"
+      }
+    }
+  ],
+  "result": {
+    "item": "minecraft:sugar",
+    "count": 4
+  },
+  "input": {
+    "item": "minecraft:sugar_cane"
+  },
+  "energy": 2400
+}

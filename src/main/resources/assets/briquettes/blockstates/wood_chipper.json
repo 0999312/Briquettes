@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "briquettes:block/wood_chipper"
+    },
+    "facing=south,lit=false": {
+      "model": "briquettes:block/wood_chipper",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "briquettes:block/wood_chipper",
+      "y": 270
+    },
+    "facing=east,lit=false": {
+      "model": "briquettes:block/wood_chipper",
+      "y": 90
+    },
+
+    "facing=north,lit=true": {
+      "model": "briquettes:block/wood_chipper_working"
+    },
+    "facing=south,lit=true": {
+      "model": "briquettes:block/wood_chipper_working",
+      "y": 180
+    },
+    "facing=west,lit=true": {
+      "model": "briquettes:block/wood_chipper_working",
+      "y": 270
+    },
+    "facing=east,lit=true": {
+      "model": "briquettes:block/wood_chipper_working",
+      "y": 90
+    }
+  }
+}

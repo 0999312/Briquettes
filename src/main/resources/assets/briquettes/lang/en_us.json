@@ -1,0 +1,14 @@
+{
+  "block.briquettes.wood_chipper": "Redstone Wood Chipper",
+  "block.briquettes.compressor": "Redstone Briquette Compressor",
+  "item.briquettes.sawdust": "Sawdust",
+  "item.briquettes.straw_scraps": "Straw Scraps",
+  "item.briquettes.charcoal_powder": "Charcoal Powder",
+  "item.briquettes.coal_powder": "Coal Powder",
+  "item.briquettes.sawdust_briquette": "Sawdust Briquette",
+  "item.briquettes.charcoal_briquette": "Charcoal Briquette",
+  "item.briquettes.coal_briquette": "Coal Briquette",
+  "itemGroup.briquettes": "Briquettes",
+  "briquettes.jei.wood_chipper": "Wood Chipper",
+  "briquettes.jei.compressor": "Compressor"
+}
