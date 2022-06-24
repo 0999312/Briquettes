@@ -110,7 +110,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 repositories {
     // Put repositories for dependencies here
     // ForgeGradle automatically adds the Forge maven and Maven Central for you
-    mavenLocal()
+    maven { url = "https://raw.github.com/0999312/MMMaven/main/repository" }
     // JEI, Tinker's Construct, Mantle, Iron Chests, Natura, etc.
     maven { url = "https://dvs1.progwml6.com/files/maven" }
     // Patchouli
