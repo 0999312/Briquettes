@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "briquettes:sawdust_briquettes_pit"
+    ]
+  },
+  "criteria": {
+    "has_sawdust_briquette": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "briquettes:sawdust_briquette"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "briquettes:sawdust_briquettes_pit"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sawdust_briquette",
+      "has_the_recipe"
+    ]
+  ]
+}

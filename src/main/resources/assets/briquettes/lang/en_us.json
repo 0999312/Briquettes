@@ -1,6 +1,11 @@
 {
   "block.briquettes.wood_chipper": "Redstone Wood Chipper",
   "block.briquettes.compressor": "Redstone Briquette Compressor",
+
+  "block.briquettes.sawdust_briquettes_pit": "Sawdust Briquettes Pit",
+  "block.briquettes.charcoal_briquettes_pit": "Charcoal Briquettes Pit",
+  "block.briquettes.coal_briquettes_pit": "Coal Briquettes Pit",
+
   "item.briquettes.sawdust": "Sawdust",
   "item.briquettes.straw_scraps": "Straw Scraps",
   "item.briquettes.charcoal_powder": "Charcoal Powder",

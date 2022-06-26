@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "briquettes:block/sawdust_briquettes_pit_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "briquettes:block/sawdust_briquettes_pit"
+    },
+    "axis=z": {
+      "model": "briquettes:block/sawdust_briquettes_pit_horizontal",
+      "x": 90
+    }
+  }
+}

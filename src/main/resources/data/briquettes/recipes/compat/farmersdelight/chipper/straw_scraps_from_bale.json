@@ -1,0 +1,18 @@
+{
+  "type": "briquettes:wood_chipper",
+  "ingredient": {
+    "item": "farmersdelight:straw_bale"
+  },
+  "result": {
+    "item": "briquettes:straw_scraps",
+    "count": 5
+  },
+  "conditions": [
+    {
+      "modid": "farmersdelight",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "experience": 0.0,
+  "recipeTime": 1200
+}

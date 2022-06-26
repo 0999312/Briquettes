@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "briquettes:charcoal_briquettes_pit"
+    }
+  ],
+  "result": {
+    "item": "briquettes:charcoal_briquette",
+    "count": 9
+  }
+}

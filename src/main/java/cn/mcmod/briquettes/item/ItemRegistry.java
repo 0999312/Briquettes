@@ -18,6 +18,13 @@ public class ItemRegistry {
     public static final RegistryObject<BlockItem> BRIQUETTE_COMPRESSOR = ITEMS.register("compressor",
             () -> new BlockItem(BlockRegistry.BRIQUETTE_COMPRESSOR.get(), Briquettes.defaultItemProperties()));
     
+    public static final RegistryObject<BlockItem> SAWDUST_BRIQUETTES_PIT = ITEMS.register("sawdust_briquettes_pit",
+            () -> new BlockItem(BlockRegistry.SAWDUST_BRIQUETTES_PIT.get(), Briquettes.defaultItemProperties()));
+    public static final RegistryObject<BlockItem> CHARCOAL_BRIQUETTES_PIT = ITEMS.register("charcoal_briquettes_pit",
+            () -> new BlockItem(BlockRegistry.CHARCOAL_BRIQUETTES_PIT.get(), Briquettes.defaultItemProperties()));
+    public static final RegistryObject<BlockItem> COAL_BRIQUETTES_PIT = ITEMS.register("coal_briquettes_pit",
+            () -> new BlockItem(BlockRegistry.COAL_BRIQUETTES_PIT.get(), Briquettes.defaultItemProperties()));
+    
     public static final RegistryObject<Item> SAWDUST = register("sawdust", ItemRegistry::normalItem);
     public static final RegistryObject<Item> STRAW_SCRAPS = register("straw_scraps", ItemRegistry::normalItem);
     public static final RegistryObject<Item> CHARCOAL_POWDER = register("charcoal_powder", ItemRegistry::normalItem);

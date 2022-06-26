@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "briquettes:block/sawdust_briquettes_pit",
+    "end": "briquettes:block/sawdust_briquettes_pit_top"
+  }
+}

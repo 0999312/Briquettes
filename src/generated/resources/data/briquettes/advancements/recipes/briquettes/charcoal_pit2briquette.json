@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "briquettes:charcoal_pit2briquette"
+    ]
+  },
+  "criteria": {
+    "has_charcoal_briquettes_pit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "briquettes:charcoal_briquettes_pit"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "briquettes:charcoal_pit2briquette"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_charcoal_briquettes_pit",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -6,6 +6,7 @@ import net.minecraft.world.item.Item;
 
 public class BriquettesTags {
     public static final TagKey<Item> BAMBOO = TagUtils.forgeItemTag("bamboo");
+    public static final TagKey<Item> STRAW = TagUtils.forgeItemTag("straw");
     public static final TagKey<Item> SAWDUST = TagUtils.forgeItemTag("sawdust");
     public static final TagKey<Item> CHARCOAL = TagUtils.forgeItemTag("charcoal");
     public static final TagKey<Item> DUSTS_WOOD = TagUtils.forgeItemTag("dusts/wood");

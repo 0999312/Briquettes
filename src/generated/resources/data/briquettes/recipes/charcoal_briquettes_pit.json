@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "briquettes:charcoal_briquette"
+    }
+  },
+  "result": {
+    "item": "briquettes:charcoal_briquettes_pit"
+  }
+}

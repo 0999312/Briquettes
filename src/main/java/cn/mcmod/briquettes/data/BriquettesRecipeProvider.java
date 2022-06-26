@@ -10,6 +10,7 @@ import blusunrize.immersiveengineering.api.crafting.builders.CrusherRecipeBuilde
 import blusunrize.immersiveengineering.api.crafting.builders.MetalPressRecipeBuilder;
 import blusunrize.immersiveengineering.common.register.IEItems.Molds;
 import cn.mcmod.briquettes.Briquettes;
+import cn.mcmod.briquettes.block.BlockRegistry;
 import cn.mcmod.briquettes.item.ItemRegistry;
 import cn.mcmod.briquettes.recipes.builder.BriquetteCompressorRecipeBuilder;
 import cn.mcmod.briquettes.recipes.builder.WoodChipperRecipeBuilder;
@@ -56,6 +57,18 @@ public class BriquettesRecipeProvider extends AbstractRecipeProvider {
         .save(comsumer);
         
         smeltingRecipe(ItemRegistry.CHARCOAL_BRIQUETTE.get(), ItemRegistry.SAWDUST_BRIQUETTE.get(), 0.5F);
+        smeltingRecipe(ItemRegistry.CHARCOAL_BRIQUETTES_PIT.get(), ItemRegistry.SAWDUST_BRIQUETTES_PIT.get(), 5F);
+        
+        makeIngotToBlock(BlockRegistry.SAWDUST_BRIQUETTES_PIT, ItemRegistry.SAWDUST_BRIQUETTE).save(comsumer);
+        makeIngotToBlock(BlockRegistry.CHARCOAL_BRIQUETTES_PIT, ItemRegistry.CHARCOAL_BRIQUETTE).save(comsumer);
+        makeIngotToBlock(BlockRegistry.COAL_BRIQUETTES_PIT, ItemRegistry.COAL_BRIQUETTE).save(comsumer);
+        
+        makeBlockToIngot(ItemRegistry.SAWDUST_BRIQUETTE, BlockRegistry.SAWDUST_BRIQUETTES_PIT)
+            .save(comsumer, new ResourceLocation(Briquettes.MODID, "sawdust_pit2briquette"));
+        makeBlockToIngot(ItemRegistry.CHARCOAL_BRIQUETTE, BlockRegistry.CHARCOAL_BRIQUETTES_PIT)
+            .save(comsumer, new ResourceLocation(Briquettes.MODID, "charcoal_pit2briquette"));
+        makeBlockToIngot(ItemRegistry.COAL_BRIQUETTE, BlockRegistry.COAL_BRIQUETTES_PIT)
+            .save(comsumer, new ResourceLocation(Briquettes.MODID, "coal_pit2briquette"));
         
         WoodChipperRecipeBuilder.chipper(ItemRegistry.SAWDUST.get())
         .requires(BriquettesTags.BAMBOO)
@@ -66,6 +79,7 @@ public class BriquettesRecipeProvider extends AbstractRecipeProvider {
         WoodChipperRecipeBuilder.chipper(ItemRegistry.SAWDUST.get())
         .requires(ItemTags.PLANKS)
         .save(comsumer, new ResourceLocation(Briquettes.MODID, "sawdust_from_plank"));
+        
         WoodChipperRecipeBuilder.chipper(ItemRegistry.SAWDUST.get())
         .requires(ItemTags.SAPLINGS)
         .save(comsumer, new ResourceLocation(Briquettes.MODID, "sawdust_from_sapings"));
